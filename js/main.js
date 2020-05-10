@@ -379,13 +379,15 @@ function loadSounds(){
         sfxsara1, sfxsara2, sfxsara3,
         sfxsara4, sfxsara5, sfxsara6,
         sfxsara7, sfxsara8, sfxsara9,
-        sfxsara10, sfxsara12, sfxsara11, sfxsara15, sfxsara13, sfxsara16, sfxsara17, sfxsara18,
-        sfxsara19, sfxsara20, sfxsara21, sfxsara22, sfxsara23, sfxsara24, sfxsara14
+        sfxsara10, sfxsara12, sfxsara11, sfxsara15, 
+        sfxsara13, sfxsara16, sfxsara17, sfxsara18,
+        sfxsara19, sfxsara20, sfxsara21, sfxsara22, 
+        sfxsara23, sfxsara24, sfxsara14
     ];
     
-    sfxMusic = game.add.audio('music1', 0.5, true);
-    sfxMusic2 = game.add.audio('music2', 0.5, true);
-    sfxMusic3 = game.add.audio('music3', 0.5, true);
+    sfxMusic = game.add.audio('music1', 0.6, true);
+    sfxMusic2 = game.add.audio('music2', 0.7, true);
+    sfxMusic3 = game.add.audio('music3', 0.6, true);
     
     musics = [sfxMusic, sfxMusic2, sfxMusic3];
 }
