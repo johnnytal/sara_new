@@ -49,7 +49,6 @@ preloader.prototype = {
         this.game.load.audio('sara22', 'assets/audio/sara22.ogg');
         this.game.load.audio('sara23', 'assets/audio/sara23.ogg');
         this.game.load.audio('sara24', 'assets/audio/sara24.ogg');
-
     },
     
     create: function(){

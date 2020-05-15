@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<widget id="ilyich.cocoon.sara" version="2.0" android-versionCode="200000" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<widget id="ilyich.cocoon.sara" version="2.1" android-versionCode="200001" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 		<name>Sara Sings a Happy Song</name>
 		<description>Create Your Sara remix</description>
 		<author email="johnnytal9@gmail.com" href="http://www.ilyichgames.com"> Johnny Tal </author>
@@ -35,7 +35,7 @@
 		<plugin name="cordova-plugin-extension" spec="*"/>
 		<plugin name="cordova-plugin-whitelist" version="1"/>
 		<plugin name="cordova-plugin-admobpro" source="npm">
-			<variable name="ADMOB_APP_ID" value="ca-app-pub-9795366520625065~5411114054" />
+			<variable name="ADMOB_APP_ID" value="ca-app-pub-9795366520625065~9137630791" />
 			<variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
 		</plugin>
 

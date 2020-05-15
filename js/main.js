@@ -65,7 +65,7 @@ gameMain.prototype = {
 	        try{
 	            window.plugins.insomnia.keepAwake();
 	        } catch(e){}   
-		}, 1000);
+		}, 500);
 
 		initAd();
     }
@@ -147,7 +147,7 @@ function playMusic(item){
    	 		}
    	 	}
    	 	
-   	 	var rnd = game.rnd.integerInRange(0, 3);
+   	 	var rnd = game.rnd.integerInRange(0, 4);
    	 	if (rnd == 2){ 	 	 	
 			if(AdMob) AdMob.showInterstitial();
 	  	}
@@ -342,7 +342,7 @@ function nextPgae(){
      	 page_n = 1;
      }
      
- 	 var rnd2 = game.rnd.integerInRange(0, 10);
+ 	 var rnd2 = game.rnd.integerInRange(0, 12);
  	 if (rnd2 == 2){ 	 	 	
 	 	if(AdMob) AdMob.showInterstitial();
   	 }
@@ -394,7 +394,7 @@ function loadSounds(){
 
 function initAd(){
 	admobid = {
-      banner: 'ca-app-pub-9795366520625065/1471869044',
+      banner: 'ca-app-pub-9795366520625065/2380650752',
       interstitial: 'ca-app-pub-9795366520625065/7119854921'
     };
     
